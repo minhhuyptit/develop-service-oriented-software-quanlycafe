@@ -1,4 +1,7 @@
-﻿*Khởi chạy Laravel(Service)
+﻿Folder Android: Project nền tảng Android (Client)
+ Folder WebProject/SalaCoffee_2: Project nền tảng Java JSP-Servlet (Client)
+ Folder quanlycafe: Project nền tảng Laravel (Service)
+ *Khởi chạy Laravel(Service)
 	Bước 1: Cài đặt server ảo Wamp or Xampp (recommended PHP >= 7. port 7777)
 	Bước 2: Cài đặt Composer (Đọc file báo cáo)
 	Bước 3: Cài đặt Mysql (recommended 10.1.37-MariaDB port 3306)
