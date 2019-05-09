@@ -1,0 +1,55 @@
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(85, 0, 0);
+    font-size: 18px;
+}
+body{
+    background-image: url("./img/background.png");
+    background-size: cover;
+}
+
+.form{
+    width: 400px;
+    height: 300px;
+    border: 1px solid orange;
+    margin:auto;
+    position:absolute;
+    top:0; left:0; right:0; bottom:0;
+}
+.form1{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+input{
+    margin-left: 30px;
+}
+.date{
+    margin-left: 13px;
+}
+.sdt{
+    margin-left: 12px;
+}
+.luong{
+    margin-left: 8px;
+}
+.text{
+    font-size: 18px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+.quyen{
+    text-align: center;
+    position: relative;
+    top: 73px;
+}
+button{
+    position: relative;
+    left: 100px;
+    background-color: rgb(255, 186, 59);
+    width: 100px;
+    height: 30px;
+    border: none;
+}

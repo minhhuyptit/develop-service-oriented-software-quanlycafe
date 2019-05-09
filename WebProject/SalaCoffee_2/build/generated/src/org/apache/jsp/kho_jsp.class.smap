@@ -1,0 +1,16 @@
+SMAP
+kho_jsp.java
+JSP
+*S JSP
+*F
++ 0 kho.jsp
+kho.jsp
++ 1 kho.css
+./css/kho.css
+*L
+5,10:49
+1#1,37:59
+14#0,4:96
+18:100,3
+19,40:103
+*E

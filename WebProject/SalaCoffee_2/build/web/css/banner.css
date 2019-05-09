@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*    background-image: url("./img/background.png");*/
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 110px;
+    background-color: #9a3d00
+}
+#admin{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    right: 1.5%;
+    top: 11%;
+    width: 10%;
+    text-align: center;
+    text-align: center;
+}
+#admin:hover{
+    color: rgb(255, 159, 159);
+    cursor: pointer;
+}
+#logo{
+    position: absolute;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.menu{
+    position: absolute;
+    left: 12%;
+    top: 4%;
+    padding-left: 0; 
+    margin: 0;
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+    position: relative;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+ul li:hover{
+    background-color: orange;
+}
+ul li:hover a{
+    color: black;
+}
+
+#footer{
+    width: 100%;
+    background-color: rgb(247, 119, 35);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.menu #search{
+    top: -2px;
+    left: 5px;
+    position: relative;
+    border: 5px;
+    height: 22px;
+    width: 159px;
+}
+
+.search{
+    right: 257px;
+    position: absolute;
+    top: 41px;
+}
+
+
+.fa-user{
+    font-size: 19px;
+    color: white;
+    text-transform: capitalize;
+}
+.dropbtn {
+    background-color: #45271d;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    text-transform: lowercase;
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: 23px;
+}
+
+.dropdown-content {
+
+    display: none;
+    /*    position: absolute;*/
+    background-color: #45271d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(71, 69, 69, 0.6);}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(71, 69, 69, 0.6);
+}
+.dropdown button {
+    float: left;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    background:  rgb(247, 119, 35);
+    color: white;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+
+.search button {
+        border-radius: 48px;
+}

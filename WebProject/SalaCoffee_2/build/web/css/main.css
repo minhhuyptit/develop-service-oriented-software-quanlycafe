@@ -1,0 +1,215 @@
+.content{
+    margin-top:-5px;
+    width: 100%;
+    height: 530px; 
+
+}
+.do{
+    background-color: red;
+}
+.xanh{
+    background-color: blue;
+}
+
+.hien{
+    display: block;
+}
+.anbang{
+    display: none;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(247, 119, 35);
+}
+
+.hd{
+    min-height: 468px;
+}
+.bt1{
+    position: relative;
+    top: 13px;
+    left: 70px;
+    height: 30px;
+    width: 100px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+
+}
+.bt1:hover{
+    cursor: pointer;
+    background-color: rgb(224, 4, 4);
+}
+
+.dsban{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#dskv{
+    width: 70%;
+    float: left;
+    background-color: yellow;
+}
+.khu{
+    display: none;
+    margin-bottom: 30px;
+}
+#khu1{
+    display: block;
+}
+
+.list{
+    clear: both;
+    width: 100%;
+}
+.listl{
+    margin-bottom: 20px;
+    float: left;
+    width: 35%;
+}
+.listl table{
+    margin: 13px 18px;
+}
+.listr{
+    float: left;
+    width: 65%;
+}
+
+.ban{
+    height: 40px;
+    width: 120px;
+    margin-bottom: 10px;
+    border: 0;
+    background: rgb(4, 226, 4);
+}
+
+.dsban .listl a{
+    height: 40px;
+    width: 120px;
+    border: 0;
+    background: rgb(5, 204, 204);
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.danhmuc{
+    width: 100%;
+}
+
+button {
+    float: left;
+    height: 57px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    background: rgb(247, 119, 35);
+    color: white;
+    line-height: 40px;
+    text-transform: uppercase;
+    border-radius: 48px;
+}
+#sanpham button{
+    background: rgb(4, 226, 4);
+    border: 0;
+    border-radius: 15px;
+}
+
+.mon{
+    position: relative;
+    width: 98%;
+}
+
+.thanhtoan{
+    bottom: 30px;
+/*    position: absolute;*/
+}
+
+.thanhtoan1{
+    float: left;
+    margin-left: 10px;
+}
+.thanhtoan1 .sl{
+    width: 110px;
+    height: 30px;
+}
+.thanhtoan1 p{
+    margin-left: 10px;
+    float: left;
+    color: red;
+    text-transform: uppercase;
+    margin-right: 10px;
+
+}
+.thanhtoan1 select, .thanhtoan1 input{
+    float: left;
+    color: red;
+    text-transform: uppercase;
+    margin-right: 20px;
+
+}
+.thanhtoan1 input{
+    margin-top: 7px;
+    width: 110px;
+    height: 23px
+}
+
+.bt{
+    float: left;
+    margin-left: 31px;
+}
+.bt .bt11{
+    margin-top: 7px;
+    height: 30px;
+    width: 108px;
+    background: rgb(14, 209, 118);
+    line-height: 30px;
+} 
+
+.suacart form{
+    float: left;
+}
+.suacart button{
+    width: 27px;
+    height: 27px;
+    line-height: normal;
+    margin: 3px;
+}
+
+.bt form{
+    float: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(217, 240, 255);
+}
+
+table{
+    border-collapse: collapse;
+    width: 427px;
+    border: 3px  black;
+}
+
+table td{
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+table #th{
+    font-weight: bold; 
+    text-align: center;
+    height: 35px;
+    background-color: #af0000;
+    color: white;
+}
+table .gia, table .tong{
+    text-align: right;
+    padding-right: 5px;
+}
+table .sl, table .ck{
+    text-align: center;
+}

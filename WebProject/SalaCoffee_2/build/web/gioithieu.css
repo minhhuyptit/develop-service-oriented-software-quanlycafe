@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+.header{
+    height: 100px;
+    background-color: #45271d;
+}
+.header p{ 
+    position: relative;
+    left: 177px;
+    top: -5px;
+    display: inline-block;
+}
+.header p a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.header p a:hover{
+    color: orange;
+}
+
+input{
+    width: 300px;
+    border: 0;
+    height: 30px;
+    border-radius: 15px;
+}
+button{
+    border-radius: 5px;
+    position: relative;
+    left: 600px;
+    border: 0;
+    width: 125px;
+    height: 36px;
+    background: white;
+}
+button:hover{
+    cursor: pointer;
+    background: orange;
+    color: white;
+}
+.fa-search{
+ font-size: 23px;
+ position: relative;
+ top: 4px;
+}
+
+.img0 img{
+    width: 70px;
+    height: 80px;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    position: absolute;
+    top: 8px;
+    left: 70px;
+}
+.fa-search{
+    color: white;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+}
+.content{
+    width: 961px;
+    margin: auto;
+}
+.item{
+    position: relative;
+}
+.item .item1{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+.fix{
+    clear: both;
+}
+.row2{
+    width: 100%;
+    height: auto;
+}
+.row2 .item1{
+    width: 100%;
+}
+.row2 .item1 .img .descr{
+    float: right;
+    width: 50%;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    padding: 0 8px;
+
+}
+.row2 .item1 .img{
+    margin: 0;
+    float: left;
+    position: relative;
+    background-image: url("./anh/bg-wave1.png");
+    color: black;
+    width: 98%; 
+}
+
+.row2 .item1 .img img{
+    width: 50%;
+    
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+.row2 .item2{
+    width: 100%;
+}
+.row2 .item2 .img .descr{
+    float: left;
+    width: 50%;
+     position: relative;
+    top: 45px;;
+    /* padding: 35px 10px; */
+
+}
+.row2 .item2 .img{
+    width: 100%;
+    float: right;
+    /* position: relative; */
+    background-image: url("./anh/bg-wave1.png");
+    /* background: #000; */
+    color: black;    
+}
+
+.row2 .item2 .img img{
+    width: 50%;
+    
+}
+.descr p, h2{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}

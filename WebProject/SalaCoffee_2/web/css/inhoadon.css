@@ -1,0 +1,36 @@
+body{
+    background-image: url("./anh/background.png");
+}
+
+.chitiethoadon{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+}
+.thongtinhoadon{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.thanhtoan{
+    margin: auto;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+.sl, .gia, .tong{
+    text-align: right;
+}
+.ck{
+    text-align: center;
+}
+hr{
+    width: 35%;
+}
+
+.inhoadon{
+    text-align: center;
+}

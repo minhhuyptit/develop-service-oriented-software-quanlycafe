@@ -1,0 +1,97 @@
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(85, 0, 0);
+    font-size: 18px;
+}
+body{
+    background-image: url("./img/background.png");
+    background-size: cover;
+}
+
+.form{
+    width: 400px;
+    height: 290px;
+    border: 1px solid orange;
+    margin: auto;
+
+    border-radius: 20px;
+    margin-top: 22px;
+    margin-bottom: 67px;
+}
+.form1{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+input{
+    margin-left: 30px;
+    
+}
+.date{
+    margin-left: 13px;
+}
+.sdt{
+    margin-left: 12px;
+}
+.luong{
+    margin-left: 8px;
+}
+.text{
+    font-size: 18px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+.quyen{
+    text-align: center;
+    position: relative;
+    top: 6px;
+}
+.form button{
+    position: relative;
+    left: 147px;
+    background-color: rgb(255, 186, 59);
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+table{
+    max-width: 352px;
+    margin: auto;
+}
+
+table tr{
+    height: 37px;
+}
+
+.avata, #avata{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+    margin: auto;
+    position: relative;
+}
+
+.listavata{
+    margin: auto;
+}
+
+.listavata div{
+    float: left;
+    margin-right: 20px;
+}
+.listavata p{
+    text-align: center;
+
+    margin-top: 116px;
+}
+.clear{
+    clear: both;
+}
+.avata{
+    background-image: url(img/avata.png);
+    background-size: 100%;
+}

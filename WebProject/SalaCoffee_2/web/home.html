@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="header">
+            <div class="img0">
+                <a href="home.html">
+                    <img src="./img/salalogo.png" alt="">
+                </a>
+            </div>
+            <p>
+                <a href="gioithieu.html">GIỚI THIỆU</a>
+                <a href="./Blog/blog.html">BLOG</a>
+                <input type="text">
+                <i class="fas fa-search"></i>
+
+            </p>
+            <a href="login.jsp"><button>ĐĂNG NHẬP</button></a>
+
+        </div>
+        <div class="slider" style="max-width:100%">
+            <img class="mySlides" src="./img/main.jpg" style="width:100%; height:420px;">
+            <img class="mySlides" src="./img/sld1.png" style="width:100%;height:420px;">
+            <img class="mySlides" src="./img/fusion.jpg" style="width:100%;height:420px;">
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 3000);
+                }
+            </script>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="item1">
+                    <a href="">
+                        <img src="./img/coffees.jpg" alt=""> </a>
+                    <div class="p1">
+                        <p>costa rican coffee</p>
+                    </div>
+
+                </div>
+                <div class="item1">
+                    <a href="">
+                        <img src="./img/plantation.png" alt="">
+                    </a>
+                    <div class="p1">
+                        <p>costa rican coffee</p>
+                    </div>
+                </div>
+                <div class="item1">
+                    <a href="">
+                        <img src="./img/coffee03.jpg" alt="">
+                    </a>
+                    <div class="p1">
+                        <p>costa rican coffee</p>
+                    </div>
+                </div>
+                <div class="item1">
+                    <a href="">
+                        <img src="./img/grid-element_01.jpg" alt="">
+                    </a>
+                    <div class="p3">
+                        <p>costa rican coffee</p>
+                    </div>
+                </div>
+                <div class="item1">
+                    <a href="">
+                        <img src="./img/cf1.jpg" alt="" style="height:400px;">
+                    </a>
+                    <div class="p3">
+                        <p>costa rican coffee</p>
+                    </div>
+                </div>
+                <div class="item1">
+                    <a href="">
+                        <img src="./img/coffee01.jpg" alt="">
+                    </a>
+                    <div class="p3">
+                        <p>costa rican coffee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content2">
+            <div class="p2">
+                <h1>Café Sala</h1>
+                <p align=“right”> Founded in 2018, Sala Coffe has been innovating the regional market for more than 30
+                    years as a committed
+                    multi-local company with strict quality standards.</p>
+                <p>As a brand, Café Sala is renowned for creating exclusive gourmet products. The best-known are our
+                    coffees
+                    and chocolates, crafted by experts from unique recipes
+                    <br> and featuring ingredients from prestigious areas as Tarrazú (Costa Rica), Nariño (Colombia),
+                    and Sacred
+                    Valley (Peru) that represent the highest quality available.
+                </p>
+                <p>With our gourmet offering, Café Sala maintains a strong presence in the most prestigious hotel
+                    chains in
+                    Latin America, through impeccable service and unparalleled
+                    <br> products.</p>
+                <p>Our business model is unique because it focuses on providing the best experience for every
+                    stakeholder in
+                    our business: from consumers and employees to growers and
+                    <br>the environment. We focus on quality over quantity.</p>
+            </div>
+            <div class="image">
+                <img src="./img/salalogo.png" alt="">
+            </div>
+        </div>
+        <div class="content3">
+            <div class="img">
+                <img src="./img/main-full-01.jpg" alt="">
+            </div>
+            <div class="title">
+                <h2 style="text-transform: uppercase;">For the Love of Coffee</h2>
+                <div class="p4">
+                    <p>Founded in 1985, Grupo Britt has been innovating the regional market for more than 30 years as a
+                        committed
+                        multi-local company with strict quality standards.</p>
+                    <p>As a brand, Café Britt is renowned for creating exclusive gourmet products. The best-known are
+                        our coffees
+                        and chocolates, crafted by experts from unique recipes and featuring ingredients from
+                        prestigious
+                        areas as Tarrazú (Costa Rica), Nariño (Colombia), and Sacred Valley (Peru) that represent the
+                        highest
+                        quality available.</p>
+                    <p>With our gourmet offering, Café Britt maintains a strong presence in the most prestigious hotel
+                        chains
+                        in Latin America, through impeccable service and unparalleled products.</p>
+                    <p>Our business model is unique because it focuses on providing the best experience for every
+                        stakeholder
+                        in our business: from consumers and employees to growers and the environment. We focus on
+                        quality
+                        over quantity.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="content4">
+            <div class="title1">
+                <h2 class="font-white" style="text-transform: uppercase;">Gourmet Chocolates with Tropical Flair</h2>
+                <div class="p5">
+                    <p>
+                        When we chose to expand from coffee into other gourmet products, chocolate was an obvious
+                        choice. Delicious treats with tropical
+                        flavor were a natural way to highlight our culture and delight our customers.
+                    </p>
+                    <p>
+                        So what makes Britt’s chocolate so delicious? The answer lies in the emphasis we place on the
+                        word “gourmet.” Gourmet isn’t
+                        just a word to us; it’s the foundation we built our reputation upon. We believe that gourmet
+                        products
+                        are high quality, created from natural ingredients, and made with care.
+                    </p>
+                </div>
+            </div>
+            <div class="img1">
+                <img src="./img/main-full-02-01.jpg" alt="">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="content5">
+            <div class="img2">
+                <img src="./img/main-full-03.jpg" alt="">
+            </div>
+            <div class="title2">
+                <h2 class=" " style="text-transform: uppercase;">Premium Nuts, Both Sweet
+                    <br> and Savory</h2>
+                <div class="p6">
+                    <p>When you want a healthy, delicious snack, nothing compares to nibbling on high-quality nuts. So
+                        when
+                        we included almonds, macadamias, and cashews in our gourmet product line, we focused on
+                        offering
+                        options that were both nutritious and great-tasting.</p>
+                    <p>Hand-selected and roasted to perfection, our premium nuts are then combined with the finest
+                        ingredients
+                        in combinations for every palate, from salty and crunchy to sweet and buttery.</p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <div class="footer1">
+                <i class="fas fa-cannabis"></i>
+                <p>Stay in touch</p>
+                <div class="icon-right">
+                    <i class="fas fa-cannabis"></i>
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="contact">
+                    <p>Find us on:</p>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-whatsapp-square"></i>
+                    </div>
+                </div>
+                <div class="adress">
+                    <p>97 ManThien Street,District 9,HCM </p>
+                    <a href="mailto:nguyenhuuthang6197@gmail.com">Contact:nguyenhuuthang6197@gmail.com</a>
+                    <br>
+                    <a href="https://goo.gl/maps/i6dEjkVVMno">Google map</a>
+                </div>
+                <div class="help">
+                    <p>Help</p>
+                    <a href="">Contact us</a>
+                    <a href="">Shiping into</a>
+                    <a href="">Oder tracking</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
